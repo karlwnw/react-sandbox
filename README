@@ -1,0 +1,6 @@
+This is a minimal React dev setup with Docker
+
+Ubuntu 16:04
+
+Build with `docker build --tag=react-dev .` 
+Launch with `docker run -v ${PWD}:/app -it <image>`
