@@ -13,3 +13,5 @@ RUN cd /tmp/provisioning && bin/provision-docker-dev.sh
 
 WORKDIR /app
 USER app
+
+EXPOSE 3000

@@ -66,6 +66,10 @@ function _init_project
 
   # install dev dependencies
   npm install --save-dev webpack babel-core babel-loader babel-preset-react babel-preset-es2015
+  # CSS loaders
+  npm install --save-dev css-loader style-loader
+  # dev server
+  npm install --save-dev webpack-dev-server
 
   popd
 }
